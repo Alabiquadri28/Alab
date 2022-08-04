@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(145deg, #046a04,#046a04);
+}
+
+ul{
+list-style-type: none;
+float: right;
+margin-top: 30px;
+
+}
+ul li{
+
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px, 20px;
+    border: 1px solid transparent;
+    word-spacing: 40px;
+    transition: 0.6s ease;
+    margin-left: 63px;
+    
+    
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transform: translate(10px, 10px);
+    transition: 0.3s;
+    
+}
+.main{
+    max-width: 1100px;
+    margin: auto;
+}
+ul  li.active a{
+    background-color: white;
+    color: black;
+}
+.tems{
+    position: absolute;
+    top: 30%;
+    left:20% ;
+    font-size: 20px;
+}
+.bon{
+    height: 70px;
+    width: 90px;
+    background-color: black;
+    text-align: center;
+    line-height: 3;
+    border-radius: 10px;
+    box-shadow: gray 4px 4px;
+    color: white;
+    margin: 20px;
+}
+.bon:hover{
+    background-color: white;
+    color: black;
+    transform: translate(10px, 10px);
+    transition: 0.3s;
+}
+.BIO{
+    position: absolute;
+    top: 5%;
+    left: 60px;
+    letter-spacing: 4px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    height: 430px;
+    width: 400px;
+    position:absolute ;
+    top: 25%;
+    left:60% ;
+    border-radius: 20px 20px 10;
+    border:solid lightblue ;
+    box-shadow: -20px -20px 10px black;
+}
+.btn:hover{
+    transform: translate(-20px, -20px);
+    transition: 1s;
+}
+.bit{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    margin: 20px;
+}
+.item {
+    text-align: center;
+    line-height: 3;
+}
+#lis{
+  
+    margin-left: 20%;
+   position: absolute;
+   top: 5%;
+   background-color: #68bb68;
+   height: 250px;
+   width: 200px;
+   text-align: center;
+   line-height: 3;
+   border-radius: 10px;
+   z-index: 2;
+   transition: 0.6s ease;
+}
+.asu{
+  display: none;
+}
+.sal{
+    display: block;
+}
+
+.sip:hover{
+    font-weight: bolder;
+    color: black;
+    transform: translate(5px, 5px);
+    transition: 0.3s;
+}
+.joy{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 70%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px gray;
+    
+
+}
+.joy:hover{
+    transform: translate(10px, 10px);
+    transition: o.1s;
+    
+}
+.nuy{
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 90px;
+    border-radius: 20px;
+}
+.bot{
+    position: absolute;
+    top: 36%; 
+    left:100px ;
+    color: black;
+    width: 190px;
+    height: 30px;
+    background: transparent;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    font-size: 15px;
+    
+    
+}
+.tob{
+    position: absolute;
+    top: 56%;
+    left: 100px;
+    color: black;
+    width: 190px;
+    height: 30px;
+    background: transparent;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+}
+.yam{
+position: absolute;
+top: 25%;
+left:20px ;
+color: blanchedalmond;
+}
+.egg{
+position: absolute;
+top:45%;
+left: 20px;
+color: blanchedalmond;
+}
+#sog{
+    display: none;
+}
+.ser{
+    display: none;
+}
+.adis{
+    position: absolute;
+    top: 110%;
+    text-align: center;
+    left:2%;
+    margin: 10px;
+    margin-block: 10PX;
+    color: white;
+}
+.fre{
+    background-color: #c9d7c9;
+    color: green;
+    font-weight: bolder;
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    line-height:2;
+}
+.samiy{
+    position: absolute;
+    top: 120%;
+    left: 20%;
+}
+.nit{
+    height: 180px;
+    width: 200px;
+}
+.yiy{
+    position: absolute;
+    left: 40%;
+    top: -28%;
+    color: white;
+}
+
+
+@media screen and (max-width: 1115px) {
+    ul li a{
+        margin-left: 40px;
+    }
+    .main{
+        max-width: 700px;
+        margin: auto;
+    }
+    .btn{
+        height: 400px;
+        width: 350px;
+    }
+    .nuy{
+        left: 70px;
+    }
+    .joy{
+        left: 70px;
+    }
+    .samiy{
+        position: absolute;
+        top: 120%;
+        left: 24%;
+        text-align: center;
+    }
+    .yiy{
+        position: absolute;
+        left: 40%;
+        top: -14%;
+        color: white;
+    }
+    
+    
+
+}
+@media screen and (max-width: 940px) {
+    .tems{
+        left:3% ;
+    }
+    .btn{
+        left:50% ;
+    }
+    ul li a{
+        margin-left: 20px;
+    }
+    .main{
+        max-width: 800px;
+        margin: 10px;
+    }
+    .samiy{
+        position: absolute;
+        top: 120%;
+        left: 29%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 740px) {
+    .btn{
+       top: 70%;
+       left:25% 
+    }
+    .tems{
+        top: 15%;
+        left:30% ;
+    }
+    .main{
+        max-width: 600px;
+        margin: 10px;
+    }
+    .BIO{
+       
+        left: 40px;
+    }
+    .adis{
+        top: 140%;
+        left: 17%;
+    }
+    main{
+        max-width: 1100px;
+        margin: auto;
+        display: none;
+    }
+    .samiy{
+        position: absolute;
+        top: 190%;
+        left: 4%;
+        text-align: center;
+    }
+    .yiy{
+        position: absolute;
+        left: 40%;
+        top: -11%;
+        color: white;
+    }
+    
+}
+@media screen and (max-width: 540px) {
+    .main{
+        display: none;
+    }
+    .ser{
+        position: absolute;
+        left: 45%;
+        top: 5%;
+        width: 100px;
+        height: 30px;
+        display: block;
+    }
+    #sog{
+        position: absolute;
+        top: 5%;
+        left: 1%;
+        display: block;
+    }
+    .BIO{
+       
+        left: 80px;
+    }
+    #lis{
+        position: absolute;
+        top: 13%;
+        left: 2%;
+    }
+    .yiy{
+        position: absolute;
+        left: 38%;
+        top: -6%;
+        color: white;
+    }
+    .samiy{
+        position: absolute;
+        top: 200%;
+        left: 1%;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 510px) {
+    .main{
+        display: none;
+    }
+    .ser{
+        position: absolute;
+        left: 55%;
+        top: 5%;
+        width: 100px;
+        height: 30px;
+    }
+    #sog{
+        position: absolute;
+        top: 5%;
+        left: 1%;
+    }
+    .BIO{
+       
+        left: 80px;
+    }
+    .btn{
+        height: 400px;
+        width: 300px;
+        left:7% ;
+        top: 75%;
+     }
+     .tems{
+        left:6% ;
+        top: 25%;
+    }
+    .nuy{
+        left: 50px;
+    }
+    .joy{
+        left: 50px;
+    }
+    .bot{
+        left: 50px;
+    }
+    .tob{
+        left: 50px;
+    }
+
+    
+}
+
