@@ -20,7 +20,7 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 5px, 20px;
     border: 1px solid transparent;
     word-spacing: 40px;
@@ -30,8 +30,8 @@ ul li a{
     
 }
 ul li a:hover{
-    background-color: white;
-    color: black;
+    background-color:white;
+    color: green;
     transform: translate(10px, 10px);
     transition: 0.3s;
     
@@ -157,7 +157,8 @@ ul  li.active a{
     position: absolute;
     top: 36%; 
     left:100px ;
-    color: black;
+    color: white;
+    padding-left: 5px;
     width: 190px;
     height: 30px;
     background: transparent;
@@ -168,11 +169,16 @@ ul  li.active a{
     
     
 }
+#boy{
+    font-size: 50px;
+    color: white;
+}
 .tob{
     position: absolute;
     top: 56%;
     left: 100px;
-    color: black;
+    color: white;
+    padding-left: 5px;
     width: 190px;
     height: 30px;
     background: transparent;
@@ -343,8 +349,10 @@ color: blanchedalmond;
     #sog{
         position: absolute;
         top: 5%;
-        left: 1%;
+        left: 6%;
         display: block;
+        color: white;
+        font-size: 40px;
     }
     .BIO{
        

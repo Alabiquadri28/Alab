@@ -1,8 +1,6 @@
 console.log('hello!nnnnn')
 
 const sab=document.getElementById('lis')
-const sib=document.getElementById('bas')
-console.log(sib.innerHTML)
 sab.classList.add('asu')
 
 
